@@ -1,0 +1,83 @@
+*{
+    background-color: black;
+}
+h1{
+   background-color: black;
+   color: white;
+   width: 1512px;
+   height: 36px;
+   margin: 10px;
+}
+.card-details{
+    background-color: #cdcdcd;
+    width: 1512X;
+    height: 906px;
+    top: 76px;
+    margin: 10px;
+}
+#searchtext{
+    width: 1226px;
+    height: 65px;
+    margin-top: 10px;
+    font-size: large;
+    background-color: #cdcdcd;
+    color: black;
+    border: 1px solid black;
+}
+#Search{
+    background-color: black;
+    width: 217px;
+    height: 66px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: large;
+}
+.search-bar{
+    background-color: #cdcdcd;
+    margin-inline: 10px;
+    display: flex;
+}
+.sortdetails{
+    background-color: #cdcdcd;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#form{
+    background-color: #cdcdcd;
+    width: 1226px;
+    height: 65px;
+}
+.student-info{
+    background-color: #cdcdcd;
+    margin: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #cdcdcd;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #cdcdcd;
+}
+
+/* Adjust column widths */
+.col-id {
+    width: 10%; /* Less space for ID */
+}
+.col-name {
+    width: 25%; /* More space for Name */
+}
+.col-other {
+    width: auto; /* Same space for remaining columns */
+}
+
+td{
+    background-color: #cdcdcd;
+}
